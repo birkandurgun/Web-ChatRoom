@@ -1,0 +1,46 @@
+.header{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.message-container::-webkit-scrollbar{
+    display: none;
+}    
+
+.general{
+    height: 100vh;
+}
+
+.message-container{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    height: 93vh;
+    background-size: 100%;
+    width: 80%;
+    margin: auto;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.message-input{
+    border: 1px solid black;
+    height: 10vh;
+    margin: auto;
+    width: 80%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#msg-box{
+    word-break: break-all;
+}
+
+::placeholder{
+    color: white;
+}
+
