@@ -1,0 +1,3 @@
+# Web ChatRoom
+
+Web ChatRoom is developed with SignalR, C#, and Node.js. Upon entering the chatroom, users are prompted to provide a username. Once a username is entered, an announcement is broadcasted to active users, signaling that the new user has joined the chat. Users can seamlessly engage in real-time conversations with each other. Additionally, when a user decides to leave the chatroom, a departure message is sent to active users, notifying them that a specific username has left. This project showcases the seamless integration of SignalR for real-time communication, C# for server-side logic, and Node.js for enhanced functionality, providing an interactive and dynamic chatroom experience.
